@@ -1,0 +1,8 @@
+---
+description: MoTDex changesets — version/changelog when release flow is active.
+globs:
+  - .changeset/**
+alwaysApply: false
+---
+
+Follow @.agents/skills/changesets/SKILL.md.

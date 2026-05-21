@@ -1,0 +1,9 @@
+---
+description: MoTDex docs/, ADRs, handbook pages. Single source of truth, no noirium patterns.
+globs:
+  - docs/**/*
+  - AGENTS.md
+alwaysApply: false
+---
+
+Follow @.agents/skills/doc-authoring/SKILL.md.
