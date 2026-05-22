@@ -30,6 +30,10 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#000000' },
       ],
       link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap',
+        },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/png', sizes: '1024x1024', href: '/logo-icon.png' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
