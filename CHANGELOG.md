@@ -1,5 +1,14 @@
 # MoTDex
 
+## 0.1.0
+
+### Minor Changes
+
+- Add brutalist dark theme with accent palette, hard shadows, and zero border radius
+- Add layered-button, float, and scroll-reveal animation utilities in Tailwind CSS
+- Set site-wide RTL (`dir="rtl"`, `lang="fa"`) and harden GitHub Pages `baseURL`
+- Add Vite `optimizeDeps` for landing page dependencies
+
 ## 0.0.1
 
 ### Patch Changes
