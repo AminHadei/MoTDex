@@ -9,6 +9,14 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    optimizeDeps: {
+      include: [
+        '@lucide/vue',
+        '@vueuse/core',
+        'clsx',
+        'tailwind-merge',
+      ],
+    },
   },
 
   modules: ['shadcn-nuxt'],
@@ -19,8 +27,12 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: process.env.NUXT_APP_BASE_URL || '/MoTDex/',
+    baseURL: '/MoTDex/',
     head: {
+      htmlAttrs: {
+        dir: 'rtl',
+        lang: 'fa',
+      },
       title: 'MoTDex',
       meta: [
         {
@@ -39,9 +51,5 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
     },
-  },
-
-  nitro: {
-    preset: process.env.NITRO_PRESET || undefined,
   },
 })
