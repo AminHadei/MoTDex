@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.1.2
+
+### Patch Changes
+
+- Add `Badge` component with outline, solid, and surface variants
+
 ## 0.1.1
 
 ### Patch Changes
