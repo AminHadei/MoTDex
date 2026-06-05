@@ -1,5 +1,13 @@
 # MoTDex
 
+## 0.2.0
+
+### Minor Changes
+
+- Add `LayeredButton` with three-layer brutalist CTA styling and optional link support
+- Add `OutlineButton` for secondary call-to-action links
+- Move shadcn `Button` and variants into `components/button/`
+
 ## 0.1.2
 
 ### Patch Changes
