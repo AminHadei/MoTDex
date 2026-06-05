@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.1.1
+
+### Patch Changes
+
+- Add `Text` typography component with heading and body variants via `as` prop
+
 ## 0.1.0
 
 ### Minor Changes
