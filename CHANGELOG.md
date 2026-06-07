@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.4.1
+
+### Patch Changes
+
+- Add `useReveal` composable for scroll-triggered fade-in animations via Intersection Observer
+
 ## 0.4.0
 
 ### Minor Changes
