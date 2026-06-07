@@ -1,5 +1,12 @@
 # MoTDex
 
+## 0.3.0
+
+### Minor Changes
+
+- Add `Card` primitives (`CardHeader`, `CardContent`, `CardTitle`, `CardDescription`)
+- Add `StackedCard` with configurable layered shadow for landing feature blocks
+
 ## 0.2.0
 
 ### Minor Changes
