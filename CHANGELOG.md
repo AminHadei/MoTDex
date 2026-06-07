@@ -1,5 +1,12 @@
 # MoTDex
 
+## 0.4.0
+
+### Minor Changes
+
+- Add landing SVG assets under `app/assets/images/landing/` (hero icons, CTA shapes, how-it-works illustration)
+- Add `useLandingImage` composable to resolve bundled asset URLs at build time
+
 ## 0.3.0
 
 ### Minor Changes
