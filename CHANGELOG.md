@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.5.0
+
+### Minor Changes
+
+- Add `SiteHeader` with MoTDex logo and Persian navigation links to glossary and blog sections
+
 ## 0.4.1
 
 ### Patch Changes
