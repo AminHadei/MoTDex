@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.7.0
+
+### Minor Changes
+
+- Add `LearningPathSection` with stacked cards for smoothing the learning journey
+
 ## 0.6.0
 
 ### Minor Changes
