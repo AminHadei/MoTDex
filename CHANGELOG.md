@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.8.0
+
+### Minor Changes
+
+- Add `ContributeSection` with ways visitors can help via feedback, sources, and glossary contributions
+
 ## 0.7.0
 
 ### Minor Changes
