@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.9.0
+
+### Minor Changes
+
+- Add `RecentBlogPostsSection` with stacked cards for latest blog posts
+
 ## 0.8.0
 
 ### Minor Changes
