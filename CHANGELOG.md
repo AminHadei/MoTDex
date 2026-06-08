@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.6.0
+
+### Minor Changes
+
+- Add `HeroSection` with Persian headline, CTA buttons, and site stats
+
 ## 0.5.1
 
 ### Patch Changes
