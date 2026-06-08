@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.5.1
+
+### Patch Changes
+
+- Add `HeroFloatingIcons` with animated tech icons around the hero section
+
 ## 0.5.0
 
 ### Minor Changes
