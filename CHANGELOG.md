@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.10.0
+
+### Minor Changes
+
+- Add `HowItWorksSection` with double-loop learning steps, scroll-reveal animation, and sticky illustration
+
 ## 0.9.0
 
 ### Minor Changes
