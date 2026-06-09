@@ -1,5 +1,11 @@
 # MoTDex
 
+## 1.0.0
+
+### Major Changes
+
+- Replace placeholder homepage with full Persian RTL landing page composing all landing sections
+
 ## 0.12.0
 
 ### Minor Changes
