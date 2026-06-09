@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.12.0
+
+### Minor Changes
+
+- Add `SiteFooter` with MoTDex branding, index links, and social contact links
+
 ## 0.11.0
 
 ### Minor Changes
