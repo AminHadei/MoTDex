@@ -1,5 +1,11 @@
 # MoTDex
 
+## 0.11.0
+
+### Minor Changes
+
+- Add `CtaSection` with glossary and blog call-to-action buttons and decorative side shapes
+
 ## 0.10.0
 
 ### Minor Changes
