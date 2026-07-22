@@ -22,8 +22,8 @@ const learningGoals = [
   { title: 'به اشتراک بگذاریم', desc: 'یادگیری زمان‌بر است. اشتراک یادگیری مسیر را برای دیگران سریع‌تر و آسان‌تر می‌کند. پس یادگیری‌هایمان را به اشتراک بگذاریم', color: '#38bdf8', icon: Workflow, wrapperHover: 'sm:hover:-translate-x-4.5 sm:hover:translate-y-4.5', shadowHover: 'sm:group-hover:translate-x-4.5 sm:group-hover:-translate-y-4.5', midHover: 'sm:group-hover:translate-x-2 sm:group-hover:-translate-y-2' },
 ]
 
-const cardGridClass = 'mx-auto flex w-full max-w-[300px] flex-col items-stretch -space-y-0.5 overflow-visible sm:max-w-[600px] sm:flex-row sm:flex-wrap sm:-space-y-0.5 sm:-space-x-0.5 lg:max-w-6xl lg:flex-nowrap lg:justify-center lg:-space-x-0.5'
-const cardItemClass = 'flex w-full max-w-[300px] self-stretch sm:w-1/2 lg:w-auto lg:max-w-[300px] lg:flex-1'
+const cardGridClass = 'mx-auto flex w-full max-w-75 flex-col items-stretch -space-y-0.5 overflow-visible sm:max-w-150 sm:flex-row sm:flex-wrap sm:-space-y-0.5 sm:-space-x-0.5 lg:max-w-6xl lg:flex-nowrap lg:justify-center lg:-space-x-0.5'
+const cardItemClass = 'flex w-full max-w-75 self-stretch sm:w-1/2 lg:w-auto lg:max-w-75 lg:flex-1'
 </script>
 
 <template>

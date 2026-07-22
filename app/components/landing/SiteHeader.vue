@@ -3,8 +3,8 @@ import AppLogo from '@/components/AppLogo.vue'
 </script>
 
 <template>
-  <header class="w-full border-b-2 border-foreground bg-transparent text-[#F9F4DA]">
-    <div class="flex h-[66px] items-stretch max-w-[1152px] mx-auto">
+  <header class="w-full border-b-2 border-foreground bg-transparent text-foreground">
+    <div class="mx-auto flex h-16.5 max-w-6xl items-stretch">
       <NuxtLink
         to="/"
         class="flex shrink-0 items-center gap-3 border-s-2 border-e-2 border-foreground bg-accent text-accent-foreground hover:text-accent-foreground-hover px-6"

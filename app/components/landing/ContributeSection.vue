@@ -18,8 +18,8 @@ const waysToContribute = [
   { title: 'شیوه‌ی دیگری به ذهنتان می‌رسد؟', desc: 'اگر ایده‌ای دارید تا سایت را بهبود دهید و در راستای آموزش مفیدتر باشیم، به من ایمیل بزنید تا با هم این قابلیت و ویژگی رو به سایت اضافه کنیم', color: '#FCBA28', icon: GitBranch, wrapperHover: 'sm:hover:-translate-x-4.5 sm:hover:translate-y-4.5', shadowHover: 'sm:group-hover:translate-x-4.5 sm:group-hover:-translate-y-4.5', midHover: 'sm:group-hover:translate-x-2 sm:group-hover:-translate-y-2' },
 ]
 
-const cardGridClass = 'mx-auto flex w-full max-w-[300px] flex-col items-stretch -space-y-0.5 overflow-visible sm:max-w-[600px] sm:flex-row sm:flex-wrap sm:-space-y-0.5 sm:-space-x-0.5'
-const cardItemClass = 'flex w-full max-w-[300px] self-stretch sm:w-1/2'
+const cardGridClass = 'mx-auto flex w-full max-w-75 flex-col items-stretch -space-y-0.5 overflow-visible sm:max-w-150 sm:flex-row sm:flex-wrap sm:-space-y-0.5 sm:-space-x-0.5'
+const cardItemClass = 'flex w-full max-w-75 self-stretch sm:w-1/2'
 </script>
 
 <template>

@@ -92,7 +92,7 @@ const steps = [
         >
           <div
             v-if="index < steps.length - 1"
-            class="absolute top-[72px] -bottom-12 start-8 hidden w-0.5 bg-foreground/20 lg:block"
+            class="absolute top-18 -bottom-12 start-8 hidden w-0.5 bg-foreground/20 lg:block"
           />
           <div
             class="relative mt-1 flex size-16 shrink-0 items-center justify-center border-2 border-black shadow-lg"

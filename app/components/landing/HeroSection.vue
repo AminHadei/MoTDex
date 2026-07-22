@@ -1,5 +1,5 @@
 <template>
-  <section class="relative max-w-[1152px] mx-auto w-full overflow-hidden bg-background pt-16 pb-24 lg:pt-28">
+  <section class="relative mx-auto w-full max-w-6xl overflow-hidden bg-background pt-16 pb-24 lg:pt-28">
     <LandingHeroFloatingIcons />
 
     <div class="relative z-10 flex flex-col items-center px-4 text-center">
@@ -8,7 +8,7 @@
           اطلس <span class="text-accent">غیررسمی</span><br>
           مدیریت فناوری
         </h1>
-        <p class="mx-auto max-w-[336px] sm:max-w-none text-center text-sm leading-relaxed text-muted-foreground md:text-lg font-vazir">
+        <p class="mx-auto max-w-84 text-center font-vazir text-sm leading-relaxed text-muted-foreground sm:max-w-none md:text-lg">
           مطالب این سایت به زبان غیررسمی و برداشت بنده از مفاهیم<br class="hidden sm:block" />
           و نیز ترجمه واژگان در واژنامه ترجمه شخصی بنده می‌باشند مگر با ذکر منبع
         </p>

@@ -1,6 +1,6 @@
 <template>
   <section class="w-full bg-background px-4 pb-16 pt-4 sm:pt-8 lg:px-12 lg:py-28!">
-    <div class="mx-auto min-h-[320px] lg:h-[560px] max-w-6xl">
+    <div class="mx-auto min-h-80 max-w-6xl lg:h-140">
       <div class="relative flex h-full overflow-hidden border-2 border-foreground">
         <div class="hidden h-full w-36 border-e-2 border-foreground lg:grid lg:grid-rows-4">
           <div
@@ -11,7 +11,7 @@
             <img
               :src="shape.url"
               :alt="shape.alt"
-              class="size-[68px] object-cover"
+              class="size-17 object-cover"
               loading="lazy"
             >
           </div>
@@ -37,7 +37,7 @@
             <img
               :src="shape.url"
               :alt="shape.alt"
-              class="size-[68px] object-cover"
+              class="size-17 object-cover"
               loading="lazy"
             >
           </div>
