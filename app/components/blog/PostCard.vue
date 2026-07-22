@@ -12,16 +12,18 @@ const authorsLabel = computed(() => formatBlogAuthors(props.post.authors));
 <template>
   <NuxtLink
     :to="`/blog/${post.slug}`"
-    class="block h-full w-full max-w-100 text-inherit no-underline"
+    class="group/post block h-full w-full max-w-100 text-inherit no-underline"
   >
     <StackedCard
       :shadow-color="post.color"
-      shadow-offset="-translate-x-4.5 translate-y-4.5"
-      mid-offset="-translate-x-2 translate-y-2"
-      class="h-full w-full"
+      shadow-offset="-translate-x-3 translate-y-3"
+      shadow-hover="group-hover/post:-translate-x-4.5 group-hover/post:translate-y-4.5 group-active/post:-translate-x-1 group-active/post:translate-y-1"
+      mid-offset="-translate-x-1.5 translate-y-1.5"
+      mid-hover="group-hover/post:-translate-x-2.5 group-hover/post:translate-y-2.5 group-active/post:-translate-x-1 group-active/post:translate-y-1"
+      class="h-full w-full group-hover/post:translate-x-0.5 group-hover/post:-translate-y-0.5 group-active/post:translate-x-0 group-active/post:translate-y-0"
     >
-      <div class="flex flex-col p-6 lg:p-7 h-85">
-        <div class="space-y-6 h-full flex flex-col">
+      <div class="flex h-85 flex-col p-6 lg:p-7">
+        <div class="flex h-full flex-col space-y-6">
           <span class="mb-4 block font-lalezar text-xl leading-relaxed">
             {{ post.title }}
           </span>
