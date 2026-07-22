@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { HTMLAttributes } from 'vue'
-import { cn } from '@/lib/utils'
-import Text from '@/components/typography/Text.vue'
+import type { HTMLAttributes } from "vue";
+import { cn } from "@/lib/utils";
+import Text from "@/components/typography/Text.vue";
 
 const props = defineProps<{
-  class?: HTMLAttributes['class']
-}>()
+  class?: HTMLAttributes["class"];
+}>();
 </script>
 
 <template>

@@ -1,20 +1,20 @@
 <script setup lang="ts">
 const props = defineProps<{
-  slug: string
-}>()
+  slug: string;
+}>();
 
-const post = useBlogPost(props.slug)
+const post = useBlogPost(props.slug);
 
 if (!post) {
-  throw createError({ statusCode: 404, statusMessage: 'Post not found' })
+  throw createError({ statusCode: 404, statusMessage: "Post not found" });
 }
 
 useSeoMeta({
   title: `${post.title} | MoTDex`,
   description: post.summary,
-})
+});
 
-const authorsLabel = formatBlogAuthors(post.authors)
+const authorsLabel = formatBlogAuthors(post.authors);
 </script>
 
 <template>

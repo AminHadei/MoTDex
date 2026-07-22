@@ -19,11 +19,11 @@ Skip for: internal refactors, agent/docs-only edits, CI tweaks.
 
 ## Bump types
 
-| Type | Example |
-| ---- | ------- |
-| `patch` | Typo fix, favicon update |
+| Type    | Example                                |
+| ------- | -------------------------------------- |
+| `patch` | Typo fix, favicon update               |
 | `minor` | New term category page, search feature |
-| `major` | Breaking data format or URL structure |
+| `major` | Breaking data format or URL structure  |
 
 ## Rules
 

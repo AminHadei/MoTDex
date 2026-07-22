@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const posts = useBlogPosts()
+const posts = useBlogPosts();
 
 useSeoMeta({
-  title: 'بلاگ | MoTDex',
-  description: 'پست‌های بلاگ MoTDex — نوشته‌شده درباره مدیریت فناوری و نوآوری',
-})
+  title: "بلاگ | MoTDex",
+  description: "پست‌های بلاگ MoTDex — نوشته‌شده درباره مدیریت فناوری و نوآوری",
+});
 </script>
 
 <template>
@@ -15,12 +15,10 @@ useSeoMeta({
         <span class="mt-2 block text-4xl text-accent-2 lg:text-5xl">نوشته شده با عشق</span>
       </h1>
 
-      <div class="grid w-full auto-rows-fr grid-cols-1 place-items-center gap-8 lg:grid-cols-3 lg:gap-10">
-        <div
-          v-for="post in posts"
-          :key="post.slug"
-          class="flex w-full justify-center"
-        >
+      <div
+        class="grid w-full auto-rows-fr grid-cols-1 place-items-center gap-8 lg:grid-cols-3 lg:gap-10"
+      >
+        <div v-for="post in posts" :key="post.slug" class="flex w-full justify-center">
           <BlogPostCard :post="post" />
         </div>
       </div>

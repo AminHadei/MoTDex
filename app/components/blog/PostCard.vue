@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import StackedCard from '@/components/card/StackedCard.vue';
-import type { BlogPost } from '~/types/blog';
+import StackedCard from "@/components/card/StackedCard.vue";
+import type { BlogPost } from "~/types/blog";
 
 const props = defineProps<{
-  post: BlogPost
-}>()
+  post: BlogPost;
+}>();
 
-const authorsLabel = computed(() => formatBlogAuthors(props.post.authors))
+const authorsLabel = computed(() => formatBlogAuthors(props.post.authors));
 </script>
 
 <template>
@@ -28,9 +28,7 @@ const authorsLabel = computed(() => formatBlogAuthors(props.post.authors))
           <p class="flex-1 font-vazir text-lg leading-relaxed">
             {{ post.shortSummary }}
           </p>
-          <h5 class="font-vazir text-base font-normal tracking-wide">
-            - {{ authorsLabel }}
-          </h5>
+          <h5 class="font-vazir text-base font-normal tracking-wide">- {{ authorsLabel }}</h5>
         </div>
       </div>
     </StackedCard>

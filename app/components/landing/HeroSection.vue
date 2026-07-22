@@ -1,14 +1,18 @@
 <template>
-  <section class="relative mx-auto w-full max-w-6xl overflow-hidden bg-background pt-16 pb-24 lg:pt-28">
+  <section
+    class="relative mx-auto w-full max-w-6xl overflow-hidden bg-background pt-16 pb-24 lg:pt-28"
+  >
     <LandingHeroFloatingIcons />
 
     <div class="relative z-10 flex flex-col items-center px-4 text-center">
       <div class="mb-9 space-y-4">
         <h1 class="text-4xl leading-[1.1] font-bold tracking-tight lg:text-7xl font-lalezar">
-          اطلس <span class="text-accent">غیررسمی</span><br>
+          اطلس <span class="text-accent">غیررسمی</span><br />
           مدیریت فناوری
         </h1>
-        <p class="mx-auto max-w-84 text-center font-vazir text-sm leading-relaxed text-muted-foreground sm:max-w-none md:text-lg">
+        <p
+          class="mx-auto max-w-84 text-center font-vazir text-sm leading-relaxed text-muted-foreground sm:max-w-none md:text-lg"
+        >
           مطالب این سایت به زبان غیررسمی و برداشت بنده از مفاهیم<br class="hidden sm:block" />
           و نیز ترجمه واژگان در واژنامه ترجمه شخصی بنده می‌باشند مگر با ذکر منبع
         </p>
@@ -19,7 +23,9 @@
         <OutlineButton label="مطالعه کنیم" href="#blog" />
       </div>
 
-      <div class="flex flex-col sm:flex-row justify-center divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-foreground border-2 border-foreground">
+      <div
+        class="flex flex-col sm:flex-row justify-center divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-foreground border-2 border-foreground"
+      >
         <div
           v-for="stat in stats"
           :key="stat.label"
@@ -38,13 +44,13 @@
 </template>
 
 <script setup lang="ts">
-import LayeredButton from '@/components/button/LayeredButton.vue'
-import OutlineButton from '@/components/button/OutlineButton.vue'
+import LayeredButton from "@/components/button/LayeredButton.vue";
+import OutlineButton from "@/components/button/OutlineButton.vue";
 
 const stats = [
-  { value: '99', label: 'پست منتشر شده' },
-  { value: '12K', label: 'واژه‌ی ترجمه شده' },
-  { value: '+10K', label: 'بازدیدگر تا امروز' },
-  { value: '+1K', label: 'نظر و پیشنهاد' },
-]
+  { value: "99", label: "پست منتشر شده" },
+  { value: "12K", label: "واژه‌ی ترجمه شده" },
+  { value: "+10K", label: "بازدیدگر تا امروز" },
+  { value: "+1K", label: "نظر و پیشنهاد" },
+];
 </script>

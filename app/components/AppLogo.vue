@@ -1,24 +1,20 @@
 <script setup lang="ts">
-const base = useRuntimeConfig().app.baseURL
+const base = useRuntimeConfig().app.baseURL;
 
 withDefaults(
   defineProps<{
-    alt?: string
-    size?: 'xs' | 'sm' | 'md' | 'lg'
+    alt?: string;
+    size?: "xs" | "sm" | "md" | "lg";
   }>(),
   {
-    alt: 'MoTDex Logo',
-    size: 'md',
+    alt: "MoTDex Logo",
+    size: "md",
   },
-)
+);
 </script>
 
 <template>
-  <img
-    :src="`${base}logo-icon.png`"
-    :alt="alt"
-    :class="`motdex-logo motdex-logo--${size}`"
-  >
+  <img :src="`${base}logo-icon.png`" :alt="alt" :class="`motdex-logo motdex-logo--${size}`" />
 </template>
 
 <style scoped>

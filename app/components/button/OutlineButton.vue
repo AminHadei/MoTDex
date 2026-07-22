@@ -1,10 +1,13 @@
 <script setup lang="ts">
-withDefaults(defineProps<{
-  label?: string
-  href?: string
-}>(), {
-  label: '',
-})
+withDefaults(
+  defineProps<{
+    label?: string;
+    href?: string;
+  }>(),
+  {
+    label: "",
+  },
+);
 </script>
 
 <template>

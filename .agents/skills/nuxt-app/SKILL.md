@@ -32,8 +32,7 @@ public/            # static assets (served at baseURL root)
 - Use `useRuntimeConfig().app.baseURL` when building paths to `public/` assets:
 
 ```vue
-const base = useRuntimeConfig().app.baseURL
-// :src="`${base}logo-icon.png`"
+const base = useRuntimeConfig().app.baseURL // :src="`${base}logo-icon.png`"
 ```
 
 - Scoped CSS by default. Use logical properties where RTL matters (`margin-inline`, `padding-inline`).

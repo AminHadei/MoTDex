@@ -20,10 +20,10 @@ CI (`.github/workflows/deploy.yml`) runs this on push to `main` and uploads `.ou
 
 ## baseURL
 
-| Context | Value |
-| ------- | ----- |
-| Local dev | `/MoTDex/` (default in nuxt.config) |
-| CI build | `NUXT_APP_BASE_URL=/MoTDex/` |
+| Context                | Value                                   |
+| ---------------------- | --------------------------------------- |
+| Local dev              | `/MoTDex/` (default in nuxt.config)     |
+| CI build               | `NUXT_APP_BASE_URL=/MoTDex/`            |
 | Custom domain (future) | `/` — update config + workflow together |
 
 Every `public/` file is served at `{baseURL}{filename}` — e.g. `/MoTDex/data/terms.json`.
@@ -41,8 +41,8 @@ Fetch client-side or prerender:
 
 ```ts
 // composables/useTerms.ts
-const base = useRuntimeConfig().app.baseURL
-const { data } = await useFetch(`${base}data/terms.json`)
+const base = useRuntimeConfig().app.baseURL;
+const { data } = await useFetch(`${base}data/terms.json`);
 ```
 
 For build-time inclusion, prefer `import` or `readFile` in a Nuxt plugin only if output stays static — no server runtime on Pages.

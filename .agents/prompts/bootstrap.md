@@ -211,7 +211,7 @@ Source of truth for the `/<name>` command. Tool-specific command files (`.claude
 ```markdown
 ---
 description: <one-line summary>
-argument-hint: '[optional argument hint]'
+argument-hint: "[optional argument hint]"
 ---
 
 Follow the procedure in @.agents/commands/<name>.md exactly. That file is the single source of truth, shared with Cursor and any other tool that grows a `<name>` command.

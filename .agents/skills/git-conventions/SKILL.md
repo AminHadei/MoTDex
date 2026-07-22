@@ -17,15 +17,15 @@ description: Use when composing a commit message or advising on git workflow for
 
 ## Types
 
-| Type | Use |
-| ---- | --- |
-| `feat` | New page, component, term data, feature |
-| `fix` | Bug fix |
-| `docs` | Documentation, agent skills |
-| `style` | Formatting only |
-| `refactor` | Restructure, no behaviour change |
-| `chore` | Deps, CI, tooling |
-| `build` | Build/deploy config |
+| Type       | Use                                     |
+| ---------- | --------------------------------------- |
+| `feat`     | New page, component, term data, feature |
+| `fix`      | Bug fix                                 |
+| `docs`     | Documentation, agent skills             |
+| `style`    | Formatting only                         |
+| `refactor` | Restructure, no behaviour change        |
+| `chore`    | Deps, CI, tooling                       |
+| `build`    | Build/deploy config                     |
 
 ## Scopes (examples)
 
