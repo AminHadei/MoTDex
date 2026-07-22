@@ -47,8 +47,10 @@
 import LayeredButton from "@/components/button/LayeredButton.vue";
 import OutlineButton from "@/components/button/OutlineButton.vue";
 
+const recentPosts = useBlogPosts()
+
 const stats = [
-  { value: "99", label: "پست منتشر شده" },
+  { value: recentPosts.length, label: "پست منتشر شده" },
   { value: "12K", label: "واژه‌ی ترجمه شده" },
   { value: "+10K", label: "بازدیدگر تا امروز" },
   { value: "+1K", label: "نظر و پیشنهاد" },
