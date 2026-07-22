@@ -84,7 +84,7 @@ const steps = [
         <div
           v-for="(item, index) in steps"
           :key="item.step"
-          class="relative z-10 mx-auto flex w-full max-w-[475px] gap-6 lg:col-start-1 lg:mx-0 lg:gap-8"
+          class="relative z-10 mx-auto flex w-full max-w-118.75 gap-6 lg:col-start-1 lg:mx-0 lg:gap-8"
           :class="visible ? 'reveal-step-visible' : 'reveal-step-hidden'"
           :style="{
             gridRow: index + 1,
@@ -93,7 +93,7 @@ const steps = [
         >
           <div
             v-if="index < steps.length - 1"
-            class="absolute top-18 -bottom-12 start-8 hidden w-0.5 bg-foreground/20 lg:block"
+            class="absolute top-18 -bottom-12 inset-s-8 hidden w-0.5 bg-foreground/20 lg:block"
           />
           <div
             class="relative mt-1 flex size-16 shrink-0 items-center justify-center border-2 border-black shadow-lg"
