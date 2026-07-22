@@ -26,6 +26,12 @@ export default defineNuxtConfig({
     componentDir: '@/components/ui',
   },
 
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+    },
+  },
+
   app: {
     baseURL: '/MoTDex/',
     head: {

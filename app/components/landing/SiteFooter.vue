@@ -2,8 +2,8 @@
 import { ArrowUpRight, CodeXml, MessageCircle } from '@lucide/vue';
 
 const indexLinks = [
-  { label: 'واژنامه', href: '#glossary' },
-  { label: 'بلاگ', href: '#blog' },
+  { label: 'واژنامه', to: '/#glossary' },
+  { label: 'بلاگ', to: '/blog' },
 ]
 
 const socialLinks = [
@@ -34,17 +34,17 @@ const socialLinks = [
             Index
           </h5>
           <div class="flex flex-col">
-            <a
+            <NuxtLink
               v-for="link in indexLinks"
-              :key="link.href"
-              :href="link.href"
+              :key="link.to"
+              :to="link.to"
               class="group flex items-center justify-between border-b-2 border-foreground py-5 text-xl font-bold tracking-wider transition-colors hover:text-white"
             >
               <p class="font-sans text-lg font-lalezar">
                 {{ link.label }}
               </p>
               <ArrowUpRight class="size-6 -scale-x-100 transition-all group-hover:-translate-y-1 group-hover:-translate-x-1" />
-            </a>
+            </NuxtLink>
           </div>
         </div>
 

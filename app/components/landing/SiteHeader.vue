@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import AppLogo from '@/components/AppLogo.vue';
+import AppLogo from '@/components/AppLogo.vue'
 </script>
 
 <template>
@@ -13,18 +13,18 @@ import AppLogo from '@/components/AppLogo.vue';
       </NuxtLink>
 
       <nav class="flex min-w-0 flex-1 items-stretch justify-end font-lalezar">
-        <a
-          href="#blog"
+        <NuxtLink
+          to="/blog"
           class="flex items-center border-s-2 border-foreground px-8 text-lg font-bold tracking-[0.12em] uppercase transition-colors bg-primary hover:bg-primary-hover text-primary-foreground"
         >
           بلاگ
-        </a>
-        <a
-          href="#glossary"
+        </NuxtLink>
+        <NuxtLink
+          to="/#glossary"
           class="flex items-center border-s-2 border-foreground bg-secondary px-8 text-lg font-bold text-secondary-foreground uppercase transition-colors hover:bg-[#00bfc2]"
         >
           واژنامه
-        </a>
+        </NuxtLink>
       </nav>
     </div>
   </header>
