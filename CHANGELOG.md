@@ -1,5 +1,21 @@
 # MoTDex
 
+## 1.2.0
+
+### Minor Changes
+
+- 1fff0f1: Add layered hover motion on blog post cards via `StackedCard` shadow spread
+
+### Patch Changes
+
+- 3a073c5: Prefix favicon and apple-touch icon links with `baseURL` so icons resolve on GitHub Pages
+- 04b7f1b: Derive published post count from blog data instead of a hard-coded value
+- 473ae90: Tighten blog post titles and short summaries in `posts.json`
+- b916ce3: Use scale width utility and logical inset on how-it-works step layout
+- 9575d1f: Replace arbitrary Tailwind values on landing with scale utilities
+- 8f51129: Apply Prettier formatting across the codebase
+- fbf976a: Drop deprecated TypeScript `baseUrl` from `tsconfig.json`
+
 ## 1.1.0
 
 ### Minor Changes
